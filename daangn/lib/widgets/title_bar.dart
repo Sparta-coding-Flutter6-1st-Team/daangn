@@ -2,13 +2,13 @@ import 'package:flutter/material.dart';
 
 class CustomAppBar extends StatefulWidget implements PreferredSizeWidget {
   @override
-  _CustomAppBarState createState() => _CustomAppBarState();
+  _TitleBarState createState() => _TitleBarState();
 
   @override
   Size get preferredSize => Size.fromHeight(56); // 기본 AppBar 높이
 }
 
-class _CustomAppBarState extends State<CustomAppBar> {
+class _TitleBarState extends State<CustomAppBar> {
   String _selectedValue = '서현1동';
 
   @override
